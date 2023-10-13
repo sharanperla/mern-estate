@@ -1,4 +1,5 @@
 import express from 'express'
+import userRouter from './routes/user.route.js'
 
 import mongoose from 'mongoose';
 import dotenv from 'dotenv'
@@ -14,3 +15,5 @@ const app=express();
 app.listen(3000,()=>{
     console.log('server started!!!')
 })
+
+app.use('/api/user',userRouter);
