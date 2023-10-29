@@ -9,8 +9,8 @@ function Header() {
         <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
            <Link to='/'>
           <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
-        <span className='text-slate-500'>sahand</span>
-        <span className='text-slate-700'>estate</span>
+        <span className='text-slate-500'>leos</span>
+        <span className='text-slate-700 pl-1'>estate</span>
        </h1>
        </Link>
        <form action="" className='bg-slate-100 p-3 rounded-lg flex items-center'>
